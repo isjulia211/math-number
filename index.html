@@ -12,20 +12,21 @@
         </div>
         <div id="table1">
            <table>
-            //加减乘除
+            <!-- 加减乘除 -->
             <tr>
             
                 <td>math operation</td>
                  <td>
                     <select id="operation">
-                     <option value="+">add</option>
-                     <option value="-">subtract</option>
-                     <option value="/">division</option>
-                     <option value="*">multiply</option>
+                     <option value="add">add</option>
+                     <option value="subtract">subtract</option>
+                     <option value="times">multiply</option>
+                     <option value="divide">division</option>
+                     
                      </select>
                  </td>
              </tr>
-             //计算范围
+             <!-- 计算范围 -->
                <tr>
                    <td>range</td>
                     <td>
@@ -36,20 +37,21 @@
                         </select>
                     </td>
                 </tr>
+                <!-- 生成题数 -->
                 <tr>
-                    <td>生成题数</td>
+                    <td>question numbers</td>
                      <td>
-                        <select id="count">
-                         <option value="10">10道</option>
-                         <option value="20">20道</option>
-                         <option value="50">50道</option>
-                         <option value="100">100道</option>
+                        <select id="amount">
+                         <option value="10">10 question</option>
+                         <option value="20">20 question</option>
+                         <option value="50">50 question</option>
+                         <option value="100">100 question</option>
                          </select>
                      </td>
                  </tr>
             </table>
         </div>
-    <div><p><input id="button" type="button" value="开始计算" onClick="create()"></p></div>
-    <div style="border:0px solid red; width:500px;height:500px;" id="div1"><div>
+    <div><p><input id="button" type="button" value="start" onClick="start()"></p></div>
+    <div style="border:0px solid red; width:500px;height:500px;" id="displayQuestions"><div>
     </body>
 </html>
