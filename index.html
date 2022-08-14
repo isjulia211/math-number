@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>小朋友做数学题</title>
+       <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+       <div>
+        <p>小朋友学数学</p>
+        </div>
+        <div>
+        </div>
+        <div id="table1">
+           <table>
+            //加减乘除
+            <tr>
+            
+                <td>math operation</td>
+                 <td>
+                    <select id="operation">
+                     <option value="+">add</option>
+                     <option value="-">subtract</option>
+                     <option value="/">division</option>
+                     <option value="*">multiply</option>
+                     </select>
+                 </td>
+             </tr>
+             //计算范围
+               <tr>
+                   <td>range</td>
+                    <td>
+                       <select id="range">
+                        <option value="10">within 10</option>
+                        <option value="20">within 20</option>
+                        <option value="100">within 100</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>生成题数</td>
+                     <td>
+                        <select id="count">
+                         <option value="10">10道</option>
+                         <option value="20">20道</option>
+                         <option value="50">50道</option>
+                         <option value="100">100道</option>
+                         </select>
+                     </td>
+                 </tr>
+            </table>
+        </div>
+    <div><p><input id="button" type="button" value="开始计算" onClick="create()"></p></div>
+    <div style="border:0px solid red; width:500px;height:500px;" id="div1"><div>
+    </body>
+</html>
